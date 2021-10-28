@@ -1,0 +1,112 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom styles */
+ 
+header {
+    font-size: 30px;
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+.bg {
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    border: 6px solid black;
+    font-size: 0%;
+    margin-left: 20px;
+}
+
+.Square {
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    font-size: 0%;
+    border: 6px double black;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+}
+ 
+#square1 {
+        height: 100px;
+        width: 100px;
+        display: inline-block;
+        background-color: brown;
+        font-size: 0%;
+        margin-left: 30px;
+        border: 5px dashed black;
+}
+ 
+p {
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    border: 5px dotted black;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 0%;
+}
+
+#paragraph {
+    height: 350px;
+    width: 280px;
+    background-color: red;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+    border-top: 15px solid blue;
+    border-left: 15px solid green;
+    border-right: 15px solid grey;
+    border-bottom: 15px solid yellow;
+    outline: 20px solid purple;
+    box-shadow: ;
+    
+}
+
+
+
+
+

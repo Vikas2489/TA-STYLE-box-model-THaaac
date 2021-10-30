@@ -1,0 +1,118 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+    
+h1 { 
+    font-size: 30px;
+    margin: 20px;
+
+}
+
+.bigbox {
+    height: 100px;
+     width: 180px;
+     background-color: brown;
+     margin: 20px;
+     border: 3px solid black;
+
+}
+
+.smallbox {
+    height: 100px;
+    width: 180px;
+    background-color: brown;
+    border: 4px double black;
+    display: inline-block;
+    margin: 10px;
+}
+
+.smallbox1 {
+    height: 100px;
+    width: 180px;
+    background-color: brown;
+    border: 4px dashed black;
+    display: inline-block;
+    margin: 10px;
+}
+
+.smallbox2 {
+    height: 100px;
+    width: 180px;
+    background-color: brown;
+    display: inline-block;
+    margin: 10px;
+    border: 3px dotted black;
+}
+
+.smallbox3 {
+    height: 100px;
+    width: 180px;
+    background-color: brown;
+    display: inline-block;
+    margin: 10px;
+    }
+
+p {
+    background-color: red;
+    display: inline-block;
+    color: white;
+    height: 400px;
+    width: 200px;
+    padding: 10px;
+    border-top: 10px solid blue;
+    border-bottom: 10px solid yellow;
+    border-left: 10px solid green;
+    border-right: 10px solid grey;
+
+}    
+
+#BIGBOX {
+    background-color: purple;
+    height: 450px;
+    display: inline-block;
+  padding: 10px;
+  margin-left: 8px;
+ border-top: 4px solid purple;
+
+}

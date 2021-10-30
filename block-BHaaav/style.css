@@ -1,0 +1,190 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header {
+    background: rgb(48, 63, 104);
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    line-height: 1.5;
+    color: white;
+}
+
+nav {
+    text-align: center;
+    color: white;
+
+}
+
+.home {
+    padding: 10px;
+    line-height: 1.5;
+    color: white;
+}
+
+hr {
+    width: 1600px;
+}
+
+
+
+h2 {
+    font-size: 50px;
+    color: white;
+    margin-left: 110px; 
+    margin-bottom: 40px;
+    margin-top: 50px;
+   
+}
+
+#para8 {
+    font-size: 0%;
+    background-color: rgb(48, 63, 104);
+}
+ 
+.para1 {
+    margin: 60px 110px;
+    font-size: 15px;
+    line-height: 1.9;
+    color: white;
+
+}
+
+#NICKWALKER {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    padding: 20px;
+    margin-left: 80px;
+
+}
+
+.section1 {
+    background-color: rgb(49, 129, 221);
+}
+
+h3 {
+    font-size: 24px;
+    padding: 20px;
+    margin-left: 110px;
+    color: white;
+   
+}
+
+.para2 {
+    font-size: 15px;
+    line-height: 1.5;
+    color: white;
+    margin-left: 110px;
+}
+
+#span1 {
+    color: white;
+    display: block;
+    padding-top: 20px;
+    line-height: 1.5;
+ 
+   
+   }
+
+#JOEASTHETICS {
+    font-size: 24px;
+   
+    padding: 20px;
+    margin-left: 110px;
+    color: white;
+}   
+
+.blue {
+      background-color: rgb(87, 157, 236);
+}
+
+#joe {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    padding: 20px;
+    margin-left: 80px;
+}
+
+.moreblue {
+    background-color: royalblue;
+}
+
+#ramy{font-size: 24px;
+   
+    padding: 20px;
+    margin-left: 110px;
+    color: white;
+}
+
+#bigramy {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    padding: 20px;
+    margin-left: 80px;
+}
+
+#bluesection {
+  background-color:  rgb(48, 63, 104);;   
+}
+
+footer {
+    background-color: rgb(48, 63, 104);
+    
+}
+
+#rights {
+ color: grey;
+ padding: 50px;
+ margin-left: 70px;
+}

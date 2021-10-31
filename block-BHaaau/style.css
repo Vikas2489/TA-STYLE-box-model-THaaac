@@ -42,201 +42,114 @@ table {
 	border-spacing: 0;
 }
 
-/* header */
+body{
+    line-height: 1.5;
+    padding-bottom: 400px;
+}
 
 h1 {
-    font-size: 38px;
-    margin-left: 565px;
-    padding: 30px;
-    }
-
-p {
-    margin-left: 250px;
-}
-
-h3 {
+    font-size: 64px;
     text-align: center;
-    font-size: 28px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-
-#dotted-para {
-              margin-left: 810px;
-              color: lightslategray;
-}
-.bigbox {
-     height: 200px;
-     width: 180px;
-     background-color: lightcoral;
-     margin-left: 830px;
+    padding: 32px 180px;
     
- }
-
-#smallbox {
-    height: 100px;
-    width: 80px;
-    display: inline-block;
-    background-color: lightskyblue;
-    padding: 10px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 25px;
-    border: 15px solid rgb(219, 71, 71);
-    outline: 3px solid black;
 }
 
+hr {
+    width: 500px;
+    border-style: dashed;
+    margin: 32px auto;
+    color: grey;
+}
 
-.dot-border {
-    height: 10px;
-    width: 400px;
-    border-bottom: 4px dotted rgb(219, 213, 213);
-    margin-left: 700px;
-    padding-top: 30px;
-    }
+h2 {
+    font-size: 40px;
+    text-align: center;
+    margin: 32px 0px;
+}
 
-footer {
-    margin-left: 485px;
-    margin-top: 30px;
-    padding: 25px;
+.box {
+    width: 180px;
+    height: 180px;
+    background-color: green;
+    margin: 0 auto;
+    border: 20px solid rgb(104, 104, 199);
+    outline: 8px solid black;
+    box-shadow: 0 0 0 30px coral;
+
+}
+
+.circle {
+ width: 20px;
+ height: 20px;
+ border-radius: 50%;
+ display: inline-block;
+ background-color: green;
 }
 
 .content {
-    height: 10px;
-    width: 10px;
+    background-color: green;
+   
+}
+
+
+.marker-container {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: green;
     border-radius: 50%;
-    background-color: cadetblue;
     display: inline-block;
-    
+    vertical-align: middle;
+    margin-right: 12px;
+
+}
+
+.padding {
+    background-color: rgb(104, 104, 199);
 }
 
 .border {
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
     background-color: black;
-    display: inline-block;
-    margin:  0px;
-    }
-
-.padding {
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    background-color: red;
-    display: inline-block;
-    margin:  0px;
-    
 }
 
 .margin {
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    background-color: lightcoral;
-    display: inline-block;
-    margin:  0px;
+    background-color: coral;
     
 }
 
-.no {
-      margin-left: 800px;
-      padding-top: 15px;
-      font-size: 20px;
+.marker {
+    display: inline-block;
+    margin: 0px 16px;
 }
 
+p  {
+   text-align: center;
+   font-size: 24px;
+}
 
-
-.bbb {
+.container {
     width: 600px;
-    border: 1px solid rgb(141, 137, 137);
-    font-size: 0;
-    margin-left: 640px;
-}
- 
-.box1 {
-      display: inline-block;
-      width: 180px;
-      height: 100px;
-      background-color: rgb(112, 106, 106);
-      margin: 10px;
-    }
-
-.box2 {
-        display: inline-block;
-        width: 180px;
-        height: 100px;
-        background-color: rgb(112, 106, 106);
-        margin: 10px;
-
+    border: 1px solid grey;
+    margin: 24px auto;
+    font-size: 0%;
 }
 
-.box3 {
-    display: inline-block;
-    width: 180px;
+.childbox {
+    width: 180px ;
     height: 100px;
-    background-color: rgb(112, 106, 106);
     margin: 10px;
+   display: inline-block;
+    background-color: grey;
 }
 
-.parent1 {
-    width: 600px;
-    border: 1px solid black;
-    margin-left: 640px;
-}
-
-.box11 {
-    display: inline-block;
-    width: 180px;
-    height: 100px;
-    background-color: rgb(112, 106, 106);
-    margin: 10px;
+.borders {
     border: 1px solid black;
 }
 
-.box22 {
-    display: inline-block;
-    width: 180px;
-    height: 100px;
-    background-color: rgb(112, 106, 106);
-    margin: 10px;
-    border: 1px solid black;
-}
-
-.box33 {
-    display: inline-block;
-    width: 180px;
-    height: 100px;
-    background-color: rgb(112, 106, 106);
-    margin: 10px;
-    border: 1px solid black;
-}
-
-#Para2 {
-       text-align: center;
-       font-size: 24px;
-       padding: 20px;
-}
-
-#para3 {
-    text-align: center;
-    padding: 20px;
-}
-
-.chotu {
-    display: inline-block;
-    width: 180px;
-    height: 100px;
-    background-color: rgb(112, 106, 106);
-    margin: 10px;
-    border: 1px solid black;
-
-}
-
-#bigb { 
-    width: 600px;
-border: 1px solid black;
-
-
-margin-left: 640px;
+.Box-sizing {
+    box-sizing: border-box;
 }
